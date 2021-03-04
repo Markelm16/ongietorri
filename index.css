@@ -1,0 +1,20 @@
+input {
+    width: 30%;
+    margin-top: 40px;
+    outline: 0;
+    border-width: 10px 10px 10px;
+    border-color: transparent;
+    color: whitesmoke;
+    background-color: #272727;
+    font-size: xx-large;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    margin-top:15%;
+    color: #272727;
+    background-image: url("mountain.jpg");
+    background-color: #cccccc;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
