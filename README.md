@@ -1,6 +1,7 @@
 # ongietorri
 
 a minimalist welcome page for your browser
+
 feel free to fork and customize it
 
 ![Main Page](https://i.imgur.com/AWZaiCO.png)
@@ -9,15 +10,16 @@ feel free to fork and customize it
 You can edit routes in routes.js
 
 ### search engines
-
-`searchEngine('tw' /*route name*/, 'https://twitter.com' /*url*/, 'https://twitter.com/search?q={QUERY}' /*url with query placeholder*/);`
-
+```js
+searchEngine('tw' /*route name*/, 'https://twitter.com' /*url*/, 'https://twitter.com/search?q={QUERY}' /*url with query placeholder*/);
+```
 ### links
-
-`link('gm' /*route name*/, 'https://mail.google.com' /*url*/)`
+```js
+link('gm' /*route name*/, 'https://mail.google.com' /*url*/)
+```
 
 ### custom routes
-```
+```js
 route('w' /*route name*/, (args /*every argument after the route name*/) => {
     var lang = args[1];
     if (!lang) lang = 'en';
